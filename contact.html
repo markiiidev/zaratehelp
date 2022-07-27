@@ -433,7 +433,12 @@ $(document).ready(function() {
 
   </div>
 
-  
+  <!-- Disable view source code -->
+  <script type="text/javascript">
+    document.addEventListener("contextmenu",function(freeVillarama){
+      freeVillarama.preventDefault();
+    });
+  </script>
 </body>
 
 </html>
